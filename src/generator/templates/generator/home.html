@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Password Generator</title>
 </head>
-<body>
-    <h2>This is a new home page</h2>
-    <h4>Your password is : {{password}}</h4>
-</body>
+<form action="password">
+    <header>
+
+    </header>
+    <body>
+        <h1>Password Generator</h1>
+        <select name="length">
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+        <input type="submit" value="Generate Password">
+        <h4>Your password is : {{password}}</h4>
+    </body>
+</form>
 </html>
